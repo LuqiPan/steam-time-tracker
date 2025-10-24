@@ -1,0 +1,4 @@
+.env
+.yarn
+.wrangler
+node_modules
