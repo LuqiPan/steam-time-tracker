@@ -14,3 +14,6 @@ invocation_logs = true
 [[analytics_engine_datasets]]
 binding = "STEAM_PLAYTIME_FOREVER"
 dataset = "STEAM_PLAYTIME_FOREVER"
+
+[placement]
+mode = "smart"
