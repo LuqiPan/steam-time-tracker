@@ -1,4 +1,4 @@
-name = "worker"
+name = "steam-time-tracker"
 compatibility_date = "2025-08-14"
 main = "src/index.js"
 
