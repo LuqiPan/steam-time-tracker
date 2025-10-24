@@ -10,3 +10,7 @@ crons = ["* * * * *"]
 enabled = true
 head_sampling_rate = 1
 invocation_logs = true
+
+[[analytics_engine_datasets]]
+binding = "STEAM_PLAYTIME_FOREVER"
+dataset = "STEAM_PLAYTIME_FOREVER"
