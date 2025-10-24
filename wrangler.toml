@@ -1,0 +1,6 @@
+name = "worker"
+compatibility_date = "2025-08-14"
+main = "src/index.js"
+
+[triggers]
+crons = ["* * * * *"]
