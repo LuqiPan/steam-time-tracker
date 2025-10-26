@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "wrangler dev --test-scheduled"
+    "dev": "wrangler dev --test-scheduled",
+    "cf:workers:trigger": "curl \"http://localhost:8787/cdn-cgi/handler/scheduled\""
   },
   "devDependencies": {
     "wrangler": "^4.45.0"
