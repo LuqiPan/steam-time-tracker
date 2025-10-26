@@ -11,12 +11,10 @@ export default {
           blobs: [item.appid.toString()],
           doubles: [item.playtime_forever],
         });
-        console.log(
-          JSON.stringify({
-            steam_app_id: item.appid,
-            playtime_forever: item.playtime_forever,
-          })
-        );
+        console.log({
+          steam_app_id: item.appid,
+          playtime_forever: item.playtime_forever,
+        });
       });
     } catch (error) {
       console.error("Error:", error);
