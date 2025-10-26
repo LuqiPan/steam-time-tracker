@@ -11,7 +11,7 @@ export default {
           blobs: [item.appid.toString()],
           doubles: [item.playtime_forever],
         });
-        console.log(item.appid, "total play time at", item.playtime_forever);
+        console.log(item.appid, "total play time", item.playtime_forever, "minutes");
       });
     } catch (error) {
       console.error("Error:", error);
