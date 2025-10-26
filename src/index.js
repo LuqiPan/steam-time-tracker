@@ -17,7 +17,7 @@ export default {
       );
 
       env.STEAM_PLAYTIME_FOREVER.writeDataPoint({
-        indexes: [PoESteamAppID],
+        indexes: [env.STEAM_ID],
         blobs: [PoESteamAppID.toString()],
         doubles: [poe.playtime_forever],
       });
